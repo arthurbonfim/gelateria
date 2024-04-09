@@ -32,7 +32,7 @@ const Sobre = () => (
         </section>
 
         <section className='a-imgs'>
-            <img src='/assets/sorveteria.jpg' alt='Interior da sorveteria'/>
+            <img src={process.env.PUBLIC_URL + '/assets/sorveteria.jpg'} alt='Interior da sorveteria'/>
         </section>
 
         <Footer/>

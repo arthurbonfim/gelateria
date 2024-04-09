@@ -7,7 +7,7 @@ import Sobre from '../pages/Sobre';
 const AppRoutes = () => (
     <BrowserRouter>
         <Routes>
-            <Route exact path='/' element={<Home/>}/>
+            <Route exact path='/gelateria' element={<Home/>}/>
             <Route path='/sabores' element={<Sabores/>}/>
             <Route path='/sobre' element={<Sobre/>}/>
         </Routes>

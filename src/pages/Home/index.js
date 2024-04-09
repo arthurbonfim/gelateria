@@ -15,7 +15,7 @@ export default function Home () {
 
             <section className='h-content'>
                 <div className='h-content__img'>
-                    <img src='/assets/banner-sabores.jpg' alt='sabores de sorvete'/>
+                    <img src={process.env.PUBLIC_URL + '/assets/banner-sabores.jpg'} alt='sabores de sorvete'/>
                 </div>
                 <div className='h-content__text' id='flavors'>
                     <h2>Nossos Sabores</h2>
@@ -38,13 +38,13 @@ export default function Home () {
                     </p>
                 </div>
                 <div className='h-content__img'>
-                    <img src='/assets/eventos-image.jpg' alt='mesa com sorvetes'/>
+                    <img src={process.env.PUBLIC_URL + '/assets/eventos-image.jpg'} alt='mesa com sorvetes'/>
                 </div>
             </section>
 
             <section className='h-content' id='about-us'>
                 <div className='h-content__img'>
-                    <img src='/assets/sobre-image.jpg' alt='amigos tomando sorvete'/>
+                    <img src={process.env.PUBLIC_URL + '/assets/sobre-image.jpg'} alt='amigos tomando sorvete'/>
                 </div>
                 <div className='h-content__text'>
                     <h2>Sobre nós</h2>

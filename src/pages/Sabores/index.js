@@ -19,32 +19,32 @@ const Sabores = () => (
                 <h2>SABORES DE SORVETE</h2> 
                 <div className='s-flavors-container'>
                     <div className='s-flavor'>
-                        <img src='/assets/sabor-oreo.png' alt='sorvete de oreo'/>
+                        <img src={process.env.PUBLIC_URL + '/assets/sabor-oreo.png'} alt='sorvete de oreo'/>
                         <h3>Sorvete de Oreo</h3>
                         <p>Delicioso sorvete sabor Oreo. Uma expressão de sabor.</p>
                     </div>
                     <div className='s-flavor'>
-                        <img src='/assets/sabor-pistache.png' alt='sorvete de pistache'/>
+                        <img src={process.env.PUBLIC_URL + '/assets/sabor-pistache.png'} alt='sorvete de pistache'/>
                         <h3>Sorvete de Pistache</h3>
                         <p>Cremoso sorverte sabor pistache com pedacinhos de semente</p>
                     </div>
                     <div className='s-flavor'>
-                        <img src='/assets/sabor-cookies-avela.png' alt='sorvete de cookies e avela'/>
+                        <img src={process.env.PUBLIC_URL + '/assets/sabor-cookies-avela.png'} alt='sorvete de cookies e avela'/>
                         <h3>Sorvete de Cookies & Avelã</h3>
                         <p>O nosso melhor sorvete. Você vai adorar o sabor.</p>
                     </div>
                     <div className='s-flavor'>
-                        <img src='/assets/sorbet-kiwi.png' alt='sorvete de kiwi'/>
+                        <img src={process.env.PUBLIC_URL + '/assets/sorbet-kiwi.png'} alt='sorvete de kiwi'/>
                         <h3>Sorvete de kiwi</h3>
                         <p>Delicioso e refrescante sorverte sabor kiwi. Rico em vitamina C.</p>
                     </div>
                     <div className='s-flavor'>
-                        <img src='/assets/sorbet-morango.png' alt='sorvete de morango'/>
+                        <img src={process.env.PUBLIC_URL + '/assets/sorbet-morango.png'} alt='sorvete de morango'/>
                         <h3>Sorvete de Morango</h3>
                         <p>Sorvete de morango gourmet. Tradicional e saboroso.</p>
                     </div>
                     <div className='s-flavor'>
-                        <img src='/assets/sorbet-limao.png' alt='sorvete de limao'/>
+                        <img src={process.env.PUBLIC_URL + '/assets/sorbet-limao.png'} alt='sorvete de limao'/>
                         <h3>Sorvete de Limão Siciliano</h3>
                         <p>O incrível sorvete gourmet de limão siciliano vai te encantar.</p>
                     </div>
