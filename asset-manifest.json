@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/gelateria/static/css/main.c0c72ed7.css",
+    "main.js": "/gelateria/static/js/main.36815429.js",
+    "static/js/453.0fd772bc.chunk.js": "/gelateria/static/js/453.0fd772bc.chunk.js",
+    "static/media/banner-sobre.png": "/gelateria/static/media/banner-sobre.e958a86cc903592d30f0.png",
+    "static/media/banner-home.png": "/gelateria/static/media/banner-home.1064a9b770096f8b4449.png",
+    "static/media/banner-sabores.jpg": "/gelateria/static/media/banner-sabores.511a8dd60ff53919100c.jpg",
+    "index.html": "/gelateria/index.html",
+    "main.c0c72ed7.css.map": "/gelateria/static/css/main.c0c72ed7.css.map",
+    "main.36815429.js.map": "/gelateria/static/js/main.36815429.js.map",
+    "453.0fd772bc.chunk.js.map": "/gelateria/static/js/453.0fd772bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0c72ed7.css",
+    "static/js/main.36815429.js"
+  ]
+}
