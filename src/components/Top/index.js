@@ -10,8 +10,8 @@ const Top = () => (
             </div>
             <nav className="top__links">
                 <Link to='/gelateria'>Home</Link>
-                <Link to='/sabores'>Sabores</Link>
-                <Link to='/Sobre'>Sobre</Link>
+                <Link to='/gelateria/sabores'>Sabores</Link>
+                <Link to='/gelateria/sobre'>Sobre</Link>
             </nav> 
         </div>
     </header>
