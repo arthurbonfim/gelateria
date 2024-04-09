@@ -3,6 +3,8 @@
     <p>We simply love ice cream!🍦</p>
 </h1>
 
+##[See the page!](https://arthurbonfim.github.io/gelateria)
+
 
 ## 📙 About 
 **Gelateria** is a project where we present the incredible ice cream flavors offered by our ice cream shop. We present our flavors, way of working and more information for you to familiarize yourself and find our shop.
