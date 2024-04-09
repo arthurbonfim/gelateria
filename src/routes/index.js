@@ -8,8 +8,8 @@ const AppRoutes = () => (
     <BrowserRouter>
         <Routes>
             <Route exact path='/gelateria' element={<Home/>}/>
-            <Route path='/sabores' element={<Sabores/>}/>
-            <Route path='/sobre' element={<Sobre/>}/>
+            <Route path='/gelateria/sabores' element={<Sabores/>}/>
+            <Route path='/gelateria/sobre' element={<Sobre/>}/>
         </Routes>
     </BrowserRouter>
 )
