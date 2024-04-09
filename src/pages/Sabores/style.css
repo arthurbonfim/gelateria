@@ -1,0 +1,85 @@
+.s-banner {
+    width: 100%;
+    height: calc(60vh - 80px);
+    background-image: url(../../../public/assets/banner-sabores.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+}
+.s-banner__overlayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 40%;
+}
+
+.s-banner__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.s-flavors {
+    padding: 100px 0;
+}
+.s-flavors h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.s-flavors-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.s-flavor {
+    width: 25%;
+    min-width: 280px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1%;
+    box-shadow: 0 0 5px 5px  #cacaca;
+}
+.s-flavor img {
+    width: 250px;
+    height: 250px;
+
+}
+.s-flavor h3 {
+    padding: 10px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .s-flavors-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .s-flavor {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 436px) {
+    .s-banner{
+        height: calc(60vh - 140px);
+    }
+    .s-flavor {
+        width: 95%;
+    }
+}

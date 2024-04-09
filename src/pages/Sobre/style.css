@@ -1,0 +1,43 @@
+.a-banner {
+    width: 100%;
+    height: calc(60vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../public/assets/banner-sobre.png);
+    background-size: cover;
+    background-position: center;    
+}
+
+.a-info__container{
+    padding: 5% 2% 2%;
+    text-align: center;
+}
+
+.a-info__container p:first-of-type {
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.a-info__container p {
+    margin-bottom: 10px;
+}
+
+.a-imgs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.a-imgs img {
+    width: 95%;
+    max-width: 500px;
+    border-radius: .5%;
+}
+
+@media screen and (max-width: 436px) {
+    .a-banner{
+        height: calc(60vh - 140px);
+    }
+}
